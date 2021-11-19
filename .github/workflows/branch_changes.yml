@@ -1,4 +1,4 @@
-name: pushed_to_any_branch
+name: Branch Changes
 
 on:
   push
