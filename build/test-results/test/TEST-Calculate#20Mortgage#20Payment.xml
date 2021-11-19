@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Calculate Mortgage Payment" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-11-19T02:12:27" hostname="Mohameds-MacBook-Pro.local" time="25.713">
+  <properties/>
+  <testcase name="Calculate mortgage payment with specific data" classname="Calculate Mortgage Payment" time="6.707"/>
+  <testcase name="Calculate mortgage payment with Set of data #1" classname="Calculate Mortgage Payment" time="3.742"/>
+  <testcase name="Calculate mortgage payment with Set of data #2" classname="Calculate Mortgage Payment" time="3.947"/>
+  <testcase name="Calculate mortgage payment with Set of data #3" classname="Calculate Mortgage Payment" time="3.789"/>
+  <testcase name="Calculate mortgage payment with Set of data #4" classname="Calculate Mortgage Payment" time="3.745"/>
+  <testcase name="Calculate mortgage payment with Set of data #5" classname="Calculate Mortgage Payment" time="3.783"/>
+  <system-out><![CDATA[
+Actual monthly payment is: $2,853.65
+Expected Monthly Payment is : $2,853.65
+
+Actual total payment is: $1,232,776.82
+Expected total Payment is : $1,232,776.82
+
+Actual total Interest is: $432,776.82
+Expected total Interest is : $432,776.82
+
+Actual monthly payment is: $1,548.27
+Expected Monthly Payment is : $1,548.27
+
+Actual total payment is: $668,852.68
+Expected total Payment is : $668,852.68
+
+Actual total Interest is: $168,852.68
+Expected total Interest is : $168,852.68
+
+Actual monthly payment is: €1,981.55
+Expected Monthly Payment is : €1,981.55
+
+Actual total payment is: €973,021.78
+Expected total Payment is : €973,021.78
+
+Actual total Interest is: €373,021.78
+Expected total Interest is : €373,021.78
+
+Actual monthly payment is: £3,815.01
+Expected Monthly Payment is : £3,815.01
+
+Actual total payment is: £1,316,178.66
+Expected total Payment is : £1,316,178.66
+
+Actual total Interest is: £516,178.66
+Expected total Interest is : £516,178.66
+
+Actual monthly payment is: $4,012.89
+Expected Monthly Payment is : $4,012.89
+
+Actual total payment is: $1,464,864.41
+Expected total Payment is : $1,464,864.41
+
+Actual total Interest is: $614,864.41
+Expected total Interest is : $614,864.41
+
+Actual monthly payment is: $6,625.43
+Expected Monthly Payment is : $6,625.43
+
+Actual total payment is: $1,802,380.77
+Expected total Payment is : $1,802,380.77
+
+Actual total Interest is: $852,380.77
+Expected total Interest is : $852,380.77
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 52724
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 18, 2021 9:12:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 9:12:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 95
+Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 49678
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 18, 2021 9:12:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 9:12:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 95
+Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 62331
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 18, 2021 9:12:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 9:12:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 95
+Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 51395
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 18, 2021 9:12:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 9:12:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 95
+Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 54388
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 18, 2021 9:12:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 9:12:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 95
+Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 63790
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 18, 2021 9:12:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 9:12:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 95
+]]></system-err>
+</testsuite>
