@@ -1,8 +1,7 @@
 name: Manually triggered Regression Test
 
 on:
-  on:
-  workflow_dispatch
+   workflow_dispatch
 
 jobs:
   build:
