@@ -1,4 +1,4 @@
-name: Manually triggered Regression Test
+name: pushed_to_any_branch
 
 on:
   push
@@ -19,7 +19,7 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build with Gradle
-        run: ./gradlew regression
+        run: ./gradlew smoke
         
     env:
      CUCUMBER_PUBLISH_TOKEN: ${{ secrets.CUCUMBER_REPORT }}
