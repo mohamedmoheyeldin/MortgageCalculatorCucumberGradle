@@ -20,7 +20,7 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build with Gradle
-        run: ./gradlew regression
+        run: ./gradlew regression --threads 6
         
     env:
      CUCUMBER_PUBLISH_TOKEN: ${{ secrets.CUCUMBER_REPORT }}
