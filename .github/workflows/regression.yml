@@ -11,10 +11,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-env:
-     CUCUMBER_PUBLISH_TOKEN: ${{ secrets.CUCUMBER_PUBLISH_TOKEN }}
-
-      steps:
+    steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 17
         uses: actions/setup-java@v2
@@ -26,3 +23,6 @@ env:
         run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew regression
+        
+    env:
+     CUCUMBER_PUBLISH_TOKEN: ${{ secrets.CUCUMBER_PUBLISH_TOKEN }}
