@@ -45,7 +45,7 @@ task regression() {
         javaexec {
             main = "io.cucumber.core.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--plugin', 'pretty', '--glue', 'stepDefinitions', 'src/test/resources', '--tags', '@Regression']
+            args = ['--plugin', 'pretty', '--glue', 'stepDefinitions', 'src/test/resources', '--tags', '@Regression', '--runLevel', 'CourgetteRunLevel.SCENARIO']
         }
     }
 }
