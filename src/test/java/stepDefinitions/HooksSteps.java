@@ -13,7 +13,7 @@ public class HooksSteps extends Driver {
 
     HooksPage myHooksPage = new HooksPage();
     String baseUrl = "https://www.mortgagecalculator.net/";
-    String expectedTitle = "Mortgage Calculator 2021 - FREE Calculator Tool (ZERO Ads)";
+    String expectedTitle = "Mortgage Calculator 2022 - FREE Calculator Tool (ZERO Ads)";
 
 
     @Before

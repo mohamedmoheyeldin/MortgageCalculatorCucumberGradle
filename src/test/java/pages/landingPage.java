@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.equalToIgnoringWhiteSpace;
 
 public class landingPage  extends Driver {
 
-    String expectedTitle = "Mortgage Calculator 2021 - FREE Calculator Tool (ZERO Ads)";
+    String expectedTitle = "Mortgage Calculator 2022 - FREE Calculator Tool (ZERO Ads)";
     String expectedHeaderText = "Free Mortgage Calculator Tool";
 
 
